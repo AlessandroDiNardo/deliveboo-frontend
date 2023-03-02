@@ -17,7 +17,7 @@
                 
                    <div class="col-md-4">
                      <div class="card mb-4  " style="background-color:#ff8100;border:none;color:white;">
-                       <img class="card-img-top" alt="Thumbnail [100%x225]" style="  width: 100%; display: block;  clip-path: polygon(0 0, 100% 0, 100% 68%, 0 90%); " src="rider.jpg">
+                       <img class="card-img-top" alt="Thumbnail [100%x225]" style="  width: 100%; display: block;  clip-path: polygon(0 0, 100% 0, 100% 68%, 0 90%); " src="Ristoranti.jpg">
                        <div class="card-body p-4">
                         <h1 >
                           Ristoranti
@@ -35,7 +35,7 @@
 
                    <div class="col-md-4">
                     <div class="card mb-4  " style="background-color:#069e24;border:none;color:white;">
-                      <img class="card-img-top" alt="Thumbnail [100%x225]" style=" width: 100%; display: block;  clip-path: polygon(0 0, 100% 0, 100% 68%, 0 90%); " src="Ristoranti.jpg">
+                      <img class="card-img-top" alt="Thumbnail [100%x225]" style=" width: 100%; display: block;  clip-path: polygon(0 0, 100% 0, 100% 68%, 0 90%); " src="Lavora.jpg">
                       <div class="card-body p-4">
                        <h1 >
                         Lavora con noi
@@ -53,14 +53,14 @@
 
                   <div class="col-md-4">
                     <div class="card mb-4  " style="background-color:#ff483b;border:none;color:white;">
-                      <img class="card-img-top" alt="Thumbnail [100%x225]" style=" width: 100%; display: block;  clip-path: polygon(0 0, 100% 0, 100% 68%, 0 90%); " src="Lavora.jpg">
+                      <img class="card-img-top" alt="Thumbnail [100%x225]" style=" width: 100%; display: block;  clip-path: polygon(0 0, 100% 0, 100% 68%, 0 90%); " src="rider.jpg">
                       <div class="card-body p-4">
                        <h1 >
                          Riders
                        </h1>
                         <p>Diventa un rider: flessibilità, ottimi guadagni e un mondo di vantaggi per te.</p>
                         <div class="text-center">
-                           <button class="bg-primary border-0 rounded-2 p-2 mt-5">
+                           <button class="bg-primary border-0 rounded-2 p-2 mt-4">
                                <a href="" class="text-decoration-none text-white">Scopri di più</a>
                            </button>
                           </div>
