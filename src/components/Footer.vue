@@ -37,13 +37,11 @@ export default{
 
                                'Cookies']},
 
-                  {'title':'Porta Deliveroo con te',
-                   
-                  links:[    ' Termini & Condizioni',
+                 
 
-                                ' Informativa sulla privacy',
+                               
 
-                                ]},
+                                
 
                 
                 ]
@@ -64,20 +62,25 @@ export default{
 
     <footer class="py-3 my-4 " >
        
-        <h2  class="mb-2" data-aos="flip-up"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="1200">
-          I Nostri Contatti
-        </h2>
+        
         <div class="list_container w-75 m-auto d-flex " >
           <ul v-for="(element, index) in items" class="rounded-2">
               <li><h6 class="py-2">{{element.title}}</h6></li>
               <li v-for="link in element.links " class="pb-2" id="footer_ul">
                <a href="#"  >
-                {{ link }}
+                {{ link }} <img :src="image" alt="">
                </a>
               </li>
           </ul>
+          <ul  class="rounded-2">
+              <li><h6 class="py-2">Porta deliveboo con te</h6></li>
+              <li  class="pb-2" id="footer_ul">
+               <a href="#"  >
+                 <img id="img_store" src="Store.png" alt="">
+               </a>
+              </li>
+          </ul>
+          
       
         </div>
       </footer>
@@ -129,5 +132,9 @@ h2{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+    #img_store{
+        
+            max-width: 155px;
     }
 </style>
