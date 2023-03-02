@@ -60,7 +60,7 @@
                        </h1>
                         <p>Diventa un rider: flessibilità, ottimi guadagni e un mondo di vantaggi per te.</p>
                         <div class="text-center">
-                           <button class="bg-primary border-0 rounded-2 p-2 mt-4">
+                           <button class="bg-primary border-0 rounded-2 p-2 btn_m">
                                <a href="" class="text-decoration-none text-white">Scopri di più</a>
                            </button>
                           </div>
@@ -95,6 +95,9 @@
 }
 .title_color{
     color: white;
+}
+.btn_m{
+  margin-top: 13%;
 }
 
  
