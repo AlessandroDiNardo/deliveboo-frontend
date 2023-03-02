@@ -4,18 +4,20 @@ import Section from './components/Section.vue'
 import Section1 from './components/Section1.vue'
 import Section2 from './components/Section2.vue'
 import Footer from './components/Footer.vue'
+import pageRestaurants from './components/pageRestaurants.vue'
 
-export default{
-  components:{
+export default {
+  components: {
     Header,
     Section,
     Section1,
     Section2,
+    pageRestaurants,
     Footer,
 
 
-    
-    
+
+
   },
   data() {
     return {
@@ -37,41 +39,41 @@ export default{
   <!-- Mettiamo il v-if con operatore not al booleano di isLoaded che per default è false -->
 
   <div class="text-center bg-white" v-if="!isLoaded">
-    
+
     <div class="Flex_Load">
-     <div class="pos_img">
-       <img class="img_loading animate__animated animate__flash " src="./assets/Logo-Deliveboo.png" alt="">
-     </div>
-     
+      <div class="pos_img">
+        <img class="img_loading animate__animated animate__flash " src="./assets/Logo-Deliveboo.png" alt="">
+      </div>
+
     </div>
-   </div >
+  </div>
 
-   <!-- Terminato il Loader apparirà la pagina principale   -->
+  <!-- Terminato il Loader apparirà la pagina principale   -->
 
- <div v-else>
-  <Header/>
- <main>
-    <Section/>
-    <Section1/>
-    <Section2/>
-  </main>
-  <Footer/>
- </div>
- 
+  <div v-else>
+    <Header />
+    <main>
+      <Section />
+      <Section1 />
+      <Section2 />
+    </main>
+    <Footer />
+    <pageRestaurants />
+  </div>
 </template>
 
 <style lang="scss">
-
-.Flex_Load{
+.Flex_Load {
   height: 100vh;
   width: 100%;
   display: flex;
-  flex-direction:column ;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative
 }
-.img_loading{
+
+.img_loading {
   max-width: 100px;
   position: absolute;
   top: 50%;
@@ -81,15 +83,15 @@ export default{
 
 }
 
-#loader{
- 
+#loader {
+
   align-content: center;
   margin-right: 22px;
-  
+
 }
 
-    main{
-      background-image: url('./assets/Food-bg.jpg');
-      background-size: cover;
-    }
+main {
+  background-image: url('./assets/Food-bg.jpg');
+  background-size: cover;
+}
 </style>
