@@ -26,9 +26,14 @@ export default{
                     Registrati
                 </a>
               </button>
-              <button class="  btn_nav rounded-2 p-1">
+              <button class=" mx-2  btn_nav rounded-2 p-1">
                 <a class="  text-decoration-none  link_nav  " href="#">
                    Area Riservata
+                </a>
+              </button>
+              <button class=" mx-2  rounded-5 p-1 bg-white border-0">
+                <a class="  text-decoration-none text-primary  link_nav  " href="#">
+                    <i class="bi bi-cart mx-1"></i>
                 </a>
               </button>
           </div>
