@@ -11,8 +11,8 @@
     <div class="container-fluid  px-1 py-5 mx-auto">
         <div class="row d-flex justify-content-center">
             <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
-                <h3>Inserisci i tuoi dati</h3>
                 <div class="card">
+                    <h5 class="text-center mb-4">Inserisci i tuoi dati </h5>
                     <form class="form-card">
                         <div class="row justify-content-between text-left">
                             <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Nome<span class="text-danger"> *</span></label> <input type="text" placeholder="" > </div>
@@ -33,6 +33,57 @@
             </div>
         </div>
     </div>
+
+    <section class="gradient-custom">
+        <div class="container my-5 py-5">
+                <div class="row d-flex justify-content-between py-5">
+                    <div class="col-md-7 col-lg-5 col-xl-4">
+                        
+                        <div class="card" style="border-radius: 15px;">
+                            <div class="card-body p-4">
+                                <form>
+                                    <h5 class="text-center mb-4">Pay with card</h5>
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <div class="form-outline">
+                                        <input type="text" id="typeText" class="form-control form-control-lg" siez="17"
+                                            placeholder="" minlength="19" maxlength="19" />
+                                        <label class="form-label" for="typeText">Numero di carta<span class="text-danger"> *</span></label>
+                                        </div>
+                                        <img class="img-fluid" style="width: 60px; padding-bottom: 30px;"  src="visa.png"/>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between align-items-center mb-4">
+                                        <div class="form-outline">
+                                        <input type="text" id="typeName" class="form-control form-control-lg" siez="17"
+                                            placeholder="" />
+                                        <label class="form-label" for="typeName">Nome del titolare<span class="text-danger"> *</span></label>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-between align-items-center pb-2">
+                                        <div class="form-outline">
+                                        <input type="text" id="typeExp" class="form-control form-control-lg" placeholder="MM/YY"
+                                            size="7" minlength="7" maxlength="7" />
+                                        <label class="form-label" for="typeExp">Expiration<span class="text-danger"> *</span></label>
+                                        </div>
+                                        <div class="form-outline">
+                                        <input type="password" id="typeText2" class="form-control form-control-lg"
+                                            placeholder="&#9679;&#9679;&#9679;" size="1" minlength="3" maxlength="3" />
+                                        <label class="form-label" for="typeText2">Cvv<span class="text-danger"> *</span></label>
+                                        </div>
+                                        <button type="button" class="btn-block btn-info btn-lg btn-rounded">
+                                            INVIA
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    
 </template>
 
 
@@ -72,6 +123,6 @@ input, textarea, button{
 .btn-block:hover{
     color: #fff;
 }
-  
+
 
 </style>
