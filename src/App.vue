@@ -5,6 +5,7 @@ import Section1 from './components/Section1.vue'
 import Section2 from './components/Section2.vue'
 import Footer from './components/Footer.vue'
 import pageRestaurants from './components/pageRestaurants.vue'
+import pagePayment from './components/pagePayment.vue'
 
 export default {
   components: {
@@ -13,6 +14,7 @@ export default {
     Section1,
     Section2,
     pageRestaurants,
+    pagePayment,
     Footer,
 
 
@@ -59,6 +61,7 @@ export default {
     </main>
     <Footer />
     <pageRestaurants />
+    <pagePayment/>
   </div>
 </template>
 
