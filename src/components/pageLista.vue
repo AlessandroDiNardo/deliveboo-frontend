@@ -26,8 +26,8 @@
                     <div class="icons">
                         <p class="icon-block d-flex">
                             <a href="#" class="d-flex align-items-center justify-content-center">
-                                <button type="button" class="btn btn-outline-warning">EDIT</button>
-                                <button type="button" class="btn btn-outline-warning">DELETE</button>
+                                <button type="button" class="btn btn-outline-success">EDIT</button>
+                                <button type="button" class="btn btn-outline-success">DELETE</button>
                             </a>
                         </p>
                     </div>
@@ -47,8 +47,8 @@
                         <div class="icons">
                             <p class="icon-block d-flex">
                                 <a href="#" class="d-flex align-items-center justify-content-center">
-                                    <button type="button" class="btn btn-outline-warning">EDIT</button>
-                                    <button type="button" class="btn btn-outline-warning">DELETE</button>
+                                    <button type="button" class="btn btn-outline-success">EDIT</button>
+                                    <button type="button" class="btn btn-outline-success">DELETE</button>
                                 </a>
                             </p>
                         </div>
@@ -67,8 +67,8 @@
                         <div class="icons">
                             <p class="icon-block d-flex">
                                 <a href="#" class="d-flex align-items-center justify-content-center">
-                                    <button type="button" class="btn btn-outline-warning">EDIT</button>
-                                    <button type="button" class="btn btn-outline-warning">DELETE</button>
+                                    <button type="button" class="btn btn-outline-success">EDIT</button>
+                                    <button type="button" class="btn btn-outline-success">DELETE</button>
                                 </a>
                             </p>
                         </div>
@@ -87,8 +87,8 @@
                         <div class="icons">
                             <p class="icon-block d-flex">
                                 <a href="#" class="d-flex align-items-center justify-content-center">
-                                    <button type="button" class="btn btn-outline-warning">EDIT</button>
-                                    <button type="button" class="btn btn-outline-warning">DELETE</button>
+                                    <button type="button" class="btn btn-outline-success">EDIT</button>
+                                    <button type="button" class="btn btn-outline-success">DELETE</button>
                                 </a>
                             </p>
                         </div>
@@ -108,8 +108,8 @@
                         <div class="icons">
                             <p class="icon-block d-flex">
                                 <a href="#" class="d-flex align-items-center justify-content-center">
-                                    <button type="button" class="btn btn-outline-warning">EDIT</button>
-                                    <button type="button" class="btn btn-outline-warning">DELETE</button>
+                                    <button type="button" class="btn btn-outline-success">EDIT</button>
+                                    <button type="button" class="btn btn-outline-success">DELETE</button>
                                 </a>
                             </p>
                         </div>
@@ -129,8 +129,8 @@
                         <div class="icons">
                             <p class="icon-block d-flex">
                                 <a href="#" class="d-flex align-items-center justify-content-center">
-                                    <button type="button" class="btn btn-outline-warning">EDIT</button>
-                                    <button type="button" class="btn btn-outline-warning">DELETE</button>
+                                    <button type="button" class="btn btn-outline-success">EDIT</button>
+                                    <button type="button" class="btn btn-outline-success">DELETE</button>
                                 </a>
                             </p>
                         </div>
@@ -150,8 +150,8 @@
                         <div class="icons">
                             <p class="icon-block d-flex">
                                 <a href="#" class="d-flex align-items-center justify-content-center">
-                                    <button type="button" class="btn btn-outline-warning">EDIT</button>
-                                    <button type="button" class="btn btn-outline-warning">DELETE</button>
+                                    <button type="button" class="btn btn-outline-success">EDIT</button>
+                                    <button type="button" class="btn btn-outline-success">DELETE</button>
                                 </a>
                             </p>
                         </div>
@@ -171,8 +171,8 @@
                         <div class="icons">
                             <p class="icon-block d-flex">
                                 <a href="#" class="d-flex align-items-center justify-content-center">
-                                    <button type="button" class="btn btn-outline-warning">EDIT</button>
-                                    <button type="button" class="btn btn-outline-warning">DELETE</button>
+                                    <button type="button" class="btn btn-outline-success">EDIT</button>
+                                    <button type="button" class="btn btn-outline-success">DELETE</button>
                                 </a>
                             </p>
                         </div>
@@ -193,8 +193,8 @@
                         <div class="icons">
                             <p class="icon-block d-flex">
                                 <a href="#" class="d-flex align-items-center justify-content-center">
-                                    <button type="button" class="btn btn-outline-warning">EDIT</button>
-                                    <button type="button" class="btn btn-outline-warning">DELETE</button>
+                                    <button type="button" class="btn btn-outline-success">EDIT</button>
+                                    <button type="button" class="btn btn-outline-success">DELETE</button>
                                 </a>
                             </p>
                         </div>
@@ -220,7 +220,7 @@
 @use '../assets/scss/variables/variables.scss' as *;
 @use '../assets/scss/general.scss' as *;
     .text-color{
-    color: #fe9801;
+    color: $main-color;
     }
     .product-section h2{
     font-style: italic;
@@ -249,7 +249,7 @@
     right: 0;
     bottom: 0;
     content: '';
-    background: #000;
+    background: $black;
     opacity: 0;
     border-radius: 4px;
     transition: all 0.6s ease; 
@@ -268,7 +268,7 @@
     left: 4px;
     font-size: 12px;
     padding: 0 10px;
-    color: #fff; 
+    color: $bg-main; 
 }
 
 .product .img .icons .icon-block a button {
@@ -278,7 +278,7 @@
           border: 1px solid rgba(255, 255, 255, 0.5); 
 }
           .product .img .icons .icon-block a i {
-            color: #fff; 
+            color: $bg-main; 
 }
     .product .text h2 {
     font-size: 22px;
@@ -287,11 +287,11 @@
 }
     .product .text .category {
     font-style: italic;
-    color: #fe9801; 
+    color: $main-color; 
 }
     .product .text .price  {
     font-style: italic;
-    color: #fff; 
+    color: $bg-main; 
 }
     .product:hover .img:after {
         opacity: .7; 
@@ -302,7 +302,7 @@
 
 
     .glow:hover, .glow:focus, .glow:active {
-    box-shadow: 1px 1px 8px rgb(236, 117, 5);
+    box-shadow: 1px 1px 8px $main-color;
     }
     .img{
     background-position:center;
